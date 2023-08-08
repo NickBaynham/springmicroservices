@@ -1,2 +1,11 @@
 # springmicroservices
 Examples of Spring Microservices
+
+## Building the Services
+
+```
+cd microservices/product-composite-service; ./gradlew build; cd -; \
+cd microservices/product-service;           ./gradlew build; cd -; \
+cd microservices/recommendation-service;    ./gradlew build; cd -; \
+cd microservices/review-service;            ./gradlew build; cd -; 
+```
