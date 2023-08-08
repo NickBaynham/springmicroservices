@@ -5,7 +5,8 @@ cd microservices || exit
 
 spring init \
 --boot-version=2.6.0 \
---format=build \
+--format=project \
+--type=gradle-project \
 --build=gradle \
 --java-version=1.8 \
 --packaging=jar \
@@ -18,7 +19,8 @@ product-service
 
 spring init \
 --boot-version=2.6.0 \
---format=build \
+--format=project \
+--type=gradle-project \
 --build=gradle \
 --java-version=1.8 \
 --packaging=jar \
@@ -31,7 +33,8 @@ review-service
 
 spring init \
 --boot-version=2.6.0 \
---format=build \
+--format=project \
+--type=gradle-project \
 --build=gradle \
 --java-version=1.8 \
 --packaging=jar \
@@ -44,7 +47,8 @@ recommendation-service
 
 spring init \
 --boot-version=2.6.0 \
---format=build \
+--format=project \
+--type=gradle-project \
 --build=gradle \
 --java-version=1.8 \
 --packaging=jar \
